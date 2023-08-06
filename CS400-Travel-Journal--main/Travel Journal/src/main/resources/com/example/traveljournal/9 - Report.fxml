@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: ALICEBLUE;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="backButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#back" stylesheets="@style.css" text="Back" />
+      <Label layoutX="253.0" layoutY="95.0" text="Report">
+         <font>
+            <Font name="HoloLens MDL2 Assets" size="32.0" />
+         </font>
+      </Label>
+      <Button fx:id="reportButton" layoutX="253.0" layoutY="263.0" mnemonicParsing="false" onAction="#report" prefHeight="25.0" prefWidth="94.0" stylesheets="@style.css" text="Report" />
+      <CheckBox fx:id="harassCheck" layoutX="229.0" layoutY="154.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="117.0" text="Harassment">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="expCheck" layoutX="229.0" layoutY="187.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="154.0" text="Explicit Language">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="offCheck" layoutX="229.0" layoutY="220.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="117.0" text="Off Topic">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </CheckBox>
+   </children>
+</AnchorPane>
