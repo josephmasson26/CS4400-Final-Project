@@ -1,5 +1,6 @@
 # CS4400-Final-Project
 MySQL and JavaFX Travel Journal Application
+README.md (Best viewed in raw text)
 
 CS 4400 - Group 6 - Phase 4 Submission
 Anthony Candelmo, Joseph Masson, Lorenzo Gastaldi, Isaac Moran, Suraj Shekar
